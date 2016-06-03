@@ -32,7 +32,7 @@ public class Example {
 	 * @return Число 4
 	 */
 	public static int getInt(){
-		return 55;
+		return 543435;
 	}
 	
 	public static int permutate(int i) {
