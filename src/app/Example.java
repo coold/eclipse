@@ -33,7 +33,7 @@ public class Example {
 	}
 	
 	public static int permutate(int i) {
-		return i+777;
+		return i+723423477;
 	}
 
 }
