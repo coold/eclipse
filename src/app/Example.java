@@ -17,6 +17,9 @@ public class Example {
 		String s = "fdgdfgdfg";
 		
 		int i = getInt();
+		ArrayList<Integer> list = new ArrayList<>();
+		list.add(i);
+		list.add(i);
 		
 		System.out.println(i);
 	}
@@ -33,7 +36,13 @@ public class Example {
 	}
 	
 	public static int permutate(int i) {
-		return i+777;
+		if(i > 9999) {
+			throw new IllegalArgumentException();
+		} else if (i > 0) {
+			return i+777;
+		} else {
+			return i-777;
+		}
 	}
 
 }

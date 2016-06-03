@@ -28,8 +28,23 @@ public class ExampleTest {
 	}
 
 	@Test
-	public void getIntShouldReturn5() {
-		assertThat(Example.getInt(), anyOf(is(5), is(4)) );
+	public void getIntShouldReturn22() {
+		assertThat(Example.getInt(), anyOf(is(22), is(11)) );
 	}
+	
+	@Test
+	public void permutateWithNegative_should_substract777() {
+		assertThat(Example.permutate(-1), is(-778));
+	}
+	
+
+	
+	@Test(expected = IllegalArgumentException.class)
+	public void permutateWithOver9999_should_throwException() {
+		Example.permutate(10000);
+	}
+	
+	
+	
 
 }
