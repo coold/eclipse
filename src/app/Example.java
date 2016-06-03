@@ -29,7 +29,7 @@ public class Example {
 	 * @return Число 4
 	 */
 	public static int getInt(){
-		return 22;
+		return 123;
 	}
 	
 	public static int permutate(int i) {
