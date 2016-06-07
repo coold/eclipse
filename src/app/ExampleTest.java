@@ -29,7 +29,7 @@ public class ExampleTest {
 
 	@Test
 	public void getIntShouldReturn22() {
-		assertThat(Example.getInt(), anyOf(is(22), is(11)) );
+		assertThat(Example.getInt(), anyOf(is(14), is(11)) );
 	}
 	
 	@Test
