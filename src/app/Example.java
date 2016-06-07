@@ -32,7 +32,7 @@ public class Example {
 	 * @return Число 4
 	 */
 	public static int getInt(){
-		return 123;
+		return 14;
 	}
 	
 
