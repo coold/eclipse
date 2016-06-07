@@ -40,7 +40,7 @@ public class Example {
 		if(i > 9998) {
 			throw new IllegalArgumentException();
 		} else if (i > 0) {
-			return i+777;
+			return i+772;
 		} else {
 			return i-777;
 		}
