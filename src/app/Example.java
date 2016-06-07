@@ -37,7 +37,7 @@ public class Example {
 	
 
 	public static int permutate(int i) {
-		if(i > 9999) {
+		if(i > 9998) {
 			throw new IllegalArgumentException();
 		} else if (i > 0) {
 			return i+777;
